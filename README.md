@@ -1,7 +1,5 @@
 # Pagelist
 
-[![CakePHP](http://cakephp.org/img/cake-logo.png)](http://www.cakephp.org)
-
 Pagelist combines meteor.js and chrome extension into a centralized history dump.
 Useful?  Not really, but so far so good for experimentation.
 
