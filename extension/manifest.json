@@ -1,0 +1,13 @@
+{
+  "name": "Chrome history dump",
+  "version": "0.1",
+  "description": "https://github.com/JanciMertel/pagelist/",
+  "manifest_version": 2,
+  "permissions": [
+    "<all_urls>","webRequest","webRequestBlocking"
+  ],
+  "background": {
+    "scripts": ["jquery-1.11.2.min.js", "background.js"],
+    "persistent": true
+  }
+}

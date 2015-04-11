@@ -1,0 +1,35 @@
+<head>
+  <title>Pages List</title>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1>Pages List</h1>
+    </header>
+
+    <ul>
+      {{#each webs}}
+        {{> web}}
+      {{/each}}
+    </ul>
+  </div>
+</body>
+
+<template name="web">
+  <li class="{{#if checked}}checked{{/if}}">
+    <button class="delete">&times;</button>
+
+    <input type="checkbox" checked="{{checked}}" class="toggle toggle-checked" />
+
+    <span class="text">{{url}}</span>
+  </li>
+</template>
+
+<template name="404">
+  <h1>Not found</h1>
+</template>
+
+<template name="Home">
+
+</template>
